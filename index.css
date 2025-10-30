@@ -14,15 +14,28 @@ h1 {
 
 
 .boton{
- padding: 20px 40px;
-font-size: 18px;
-width: 200px;
+
+display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  width: 200px;
+  height: 60px;
+  font-size: 18px;
+  padding: 15px 30px;
+  margin: 0 auto;
 }
 
 
 #logo{
     margin-top: -200px;
     text-align: left;
+}
+
+
+#logo a:hover{
+    background-color: aqua;
+    
 }
 
 
@@ -43,8 +56,9 @@ width: 200px;
 }
 
 .enlaces a:hover {
-    background-color: bisque;
-    font-size: 30px;
+   box-shadow: 0 8px 15px rgba(0,0,0,0.3);
+transform: translateY(3px);
+
 }
 
 
@@ -111,3 +125,32 @@ body {
      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
      font-size: 20px;
 }
+
+
+
+#titulo_formulario{
+     text-align: center;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration-line: underline;
+    margin-top: 100px;
+}
+.formulario{
+    text-align: center;
+    border-radius: 20px;
+    font-size: 30px;
+}
+
+#boton_enviar{
+    display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  width: 200px;
+  height: 60px;
+  font-size: 18px;
+  padding: 15px 50px;
+  margin: 0 auto;
+}
+
+

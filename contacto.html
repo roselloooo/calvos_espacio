@@ -1,31 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Los calvos del espacio</title>
     <link rel="stylesheet" href="index.css">
 </head>
+
 <body>
     <header>
         <h1> Contacta con nosotros</h1>
     </header>
 
-    
-        <nav class="enlaces">
-    <a href="inicio.html"> Inicio</a>
-    <a href="nosotros.html"> Sobre nosotros</a>
-    <a href="conciertos.html"> Conciertos</a>
-    <a href="musica.html"> Nuestra música</a>
-    <a href="contacto.html"> Contacta con nosotros</a>
-      
+
+    <nav class="enlaces">
+        <a href="inicio.html"> Inicio</a>
+        <a href="nosotros.html"> Sobre nosotros</a>
+        <a href="conciertos.html"> Conciertos</a>
+        <a href="musica.html"> Nuestra música</a>
+        <a href="contacto.html"> Contacta con nosotros</a>
+
     </nav>
 
 
+
+    <nav id="logo">
+        <img src="saturno-removebg-preview.png" height="150" width="250">
+    </nav>
+
+    <div id="titulo_formulario">
+        <h2>Introduce tus datos</h2>
+    </div>
+
+    <div class="formulario">
+
+        <form action="/action_page.php">
+            <label for="nombre">Nombre:</label><br>
+            <input type="text" id="nombre" name="nombre" value=""><br>
+            <label for="apellido">Apellidos:</label><br>
+            <input type="text" id="apellido" name="apellido" value=""><br><br>
+            <label for="contacto">Dirección de correo o número de teléfono:</label><br>
+            <input type="text" id="contacto" name="contacto" value=""><br><br>
+
+            <div id="boton_enviar">
+                <input type="submit" value="Enviar">
+            </div>
+        </form>
+
+    </div>
+
+
     
-        <nav id="logo">
-            <img src="saturno-removebg-preview.png" height="150" width="250">
-        </nav>
-    
+
 </body>
+
 </html>
